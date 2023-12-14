@@ -1,0 +1,8 @@
+case .changeTextColor(let color):
+            newText.textColor = color
+            
+        case .changeBackgroundColor(let color):
+            newText.backgroundColor = color
+            
+        case .changeCornerRadius(let radius):
+            newText.cornerRadius = radius
